@@ -1,0 +1,681 @@
+.backgroundHome {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/326598.jpg");
+    background-size: cover;
+}
+
+.principalMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.links {
+    display: flex;
+    gap: 35px;
+    color: #E6D3B3;
+    font-family: var(--secondFont);
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+
+.link {
+    all: unset;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.logo {
+    all: unset;
+    cursor: pointer;
+    padding-right: 600px;
+}
+
+.logoInspire {
+    width: 220px;
+    height: 100px;
+    margin-top: 15px;
+    box-shadow: 10px 15px 20px black;
+    box-shadow: 5px 5px 5px black;
+}
+
+@media (max-width: 768px) {
+    .backgroundHome {
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        padding: 20px;
+    }
+
+    .principalMenu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .logo {
+        padding-right: 0;
+    }
+
+    .logoInspire {
+        width: 150px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .h1PrincipalText {
+        font-size: 32px;
+        text-align: center;
+        margin: 60px auto 20px;
+        letter-spacing: 4px;
+    }
+
+    .h3PrincipalText {
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .whatsBtt {
+        width: 200px;
+        height: 50px;
+        margin: 40px auto;
+    }
+
+    .btt {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .textInspireCouture {
+        margin-left: 0;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+    .logoInspireCouture {
+        margin: 10px auto;
+        display: block;
+        width: 150px;
+        height: auto;
+    }
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1PrincipalText {
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: var(--thirdFont);
+    font-weight: 100;
+    color: #E6D3B3;
+    letter-spacing: 10px;
+}
+
+.h3PrincipalText {
+    width: 700px;
+    height: 24px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+    font-style: italic;
+    color: #E6D3B3;
+}
+
+.whatsBtt {
+    all: unset;
+    display: flex;
+    width: 230px;
+    height: 60px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 170px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: #505c45;
+    color: #E6D3B3;
+    box-shadow: 10px 15px 20px black;
+
+}
+
+.logoWhats {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.btt {
+    all: unset;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: var(--secondFont);
+    font-size: large;
+    font-weight: 500;
+    color: #E6D3B3;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.linkButtonWhatsapp {
+    all: unset;
+}
+
+.inspireCouture {
+    all: unset;
+    cursor: pointer;
+}
+
+.textInspireCouture {
+    margin-left: 1300px;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+    color: #505c45;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.logoInspireCouture {
+    margin-left: 1350px;
+    width: 220px;
+    height: 100px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.whoWeAre {
+    margin-bottom: 225px;
+    margin-left: 130px;
+    margin-right: 120px;
+}
+
+.aboutUs {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 40px;
+    padding-top: 130px;
+    margin-right: 100px;
+    background-color: #505c45;
+}
+
+.titleAboutUs {
+    padding-bottom: 25px;
+    font-family: var(--thirdFont);
+    color: #E6D3B3;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.subtitleAboutUs {
+    display: flex;
+    width: 650px;
+    height: 100px;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #E6D3B3;
+}
+
+.aboutUsPhoto {
+    width: 400px;
+    height: 600px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+.ourServices {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 70px;
+    padding-bottom: 200px;
+    background-color: #505c45;
+}
+
+.servicesText {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: #E6D3B3;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 10px;
+    background-color: #505c45;
+    font-size: 25px;
+}
+
+.titleServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--thirdFont);
+    font-size: 23px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #E6D3B3;
+}
+
+.subtitleServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #E6D3B3;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.buttonServices {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 44px;
+    border-radius: 50px;
+    color: #667558;
+    background-color: #E6D3B3;
+    margin-left: 200px;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+
+.skinCleaningPhoto {
+    width: 550px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotStoneMassagePhoto {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.pindasMassagePhoto {
+    width: 550px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reviews {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #505c45;
+    color: #E6D3B3;
+}
+
+.textReview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: var(--thirdFont);
+    color: #E6D3B3;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.clientInf {
+    height: 330px;
+}
+
+
+.reviewClient {
+
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.client {
+    border: 1px solid #E6D3B3;
+}
+
+
+.customerInfo {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 5px;
+
+}
+
+.imgCustomer {
+    width: 90px;
+    height: 90px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.imgClientClaudia {
+    width: 90px;
+    height: 88px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.imgClientDebora {
+    width: 93px;
+    height: 90px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.customeInfoText {
+    display: flex;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 30px;
+
+}
+
+.stars {
+    margin-left: 30px;
+}
+
+.star {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contactUs {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #505c45;
+    font-family: var(--thirdFont);
+}
+
+.contactInfo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    background-color: #E6D3B3;
+    margin-bottom: 100px;
+    font-size: 16px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+
+
+}
+
+.contactPhone {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-size: 16px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+
+
+
+}
+
+.contactNumber {
+    display: flex;
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+
+
+}
+
+.contactLocation {
+    all: unset;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-size: 16px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+
+
+}
+
+.contactAdress {
+    display: flex;
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+
+}
+
+.contactClock {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-size: 16px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+}
+
+.contactHour {
+    display: flex;
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+}
+
+.contactEmail {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+    font-size: 16px;
+}
+
+.contactEmailAdress {
+    display: flex;
+    margin-left: 70px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+    font-size: 16px;
+
+
+}
+
+.textSocials {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: var(--thirdFont);
+    color: #505c45;
+    font-size: 16px;
+}
+
+.socials {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.boxInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 550px;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #E6D3B3;
+    font-family: var(--thirdFont);
+    border-left: 1px solid #505c45;
+}
+
+.titleWeCallYou {
+    font-family: var(--thirdFont);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+.boxInfoName {
+    all: unset;
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+.boxInfoTelephone {
+    all: unset;
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #3F3F55;
+}
+
+.boxInfoEmail {
+    all: unset;
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #3F3F55;
+}
+
+.boxInfoMessage {
+    all: unset;
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    border: none;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #3F3F55;
+}
+
+.buttonBoxInfo {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 150px;
+    height: 44px;
+    background-color: #505c45;
+    border-radius: 50px;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #E6D3B3;
+
+}
+
+.buttonsSocials {
+    all: unset;
+}
