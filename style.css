@@ -1,9 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
 .backgroundHome {
     width: 100vw;
     height: 100vh;
     background-image: url("../../assets/326598.jpg");
     background-size: cover;
+    margin-right: 100px;
+
 }
+
 
 .principalMenu {
     display: flex;
@@ -16,7 +26,7 @@
     display: flex;
     gap: 35px;
     color: #E6D3B3;
-    font-family: var(--secondFont);
+    font-family: "Merriweather", serif;
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -27,6 +37,7 @@
     all: unset;
     cursor: pointer;
     margin-top: 15px;
+
 }
 
 .logo {
@@ -43,7 +54,7 @@
     box-shadow: 5px 5px 5px black;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .backgroundHome {
         background-position: center;
         background-size: cover;
@@ -115,8 +126,7 @@
         width: 150px;
         height: auto;
     }
-}
-
+} */
 
 .img {
     display: flex;
@@ -128,7 +138,7 @@
     font-size: 80px;
     margin-top: 150px;
     margin-left: 50px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-weight: 100;
     color: #E6D3B3;
     letter-spacing: 10px;
@@ -140,7 +150,7 @@
     font-size: 20px;
     margin-top: 50px;
     margin-left: 50px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: italic;
     color: #E6D3B3;
@@ -170,14 +180,13 @@
 .btt {
     all: unset;
     cursor: pointer;
-    margin-left: 30px;
     border-radius: 10px;
-    font-family: var(--secondFont);
+    font-family: "Roboto", sans-serif;
     font-size: large;
     font-weight: 500;
     color: #E6D3B3;
-    margin-top: 22px;
-    margin-left: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 
 .linkButtonWhatsapp {
@@ -191,7 +200,7 @@
 
 .textInspireCouture {
     margin-left: 1300px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-weight: 400;
     color: #505c45;
     letter-spacing: 10px;
@@ -225,7 +234,7 @@
 
 .titleAboutUs {
     padding-bottom: 25px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     color: #E6D3B3;
     font-weight: 400;
     font-size: 25px;
@@ -236,7 +245,7 @@
     display: flex;
     width: 650px;
     height: 100px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -265,6 +274,10 @@
     background-color: #505c45;
 }
 
+.body {
+    background-color: #505c45;
+}
+
 .servicesText {
     display: flex;
     width: 100vw;
@@ -272,7 +285,7 @@
     align-items: center;
     height: 80px;
     color: #E6D3B3;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 10px;
@@ -284,7 +297,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 23px;
     letter-spacing: 10px;
     font-weight: 400;
@@ -296,7 +309,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -318,7 +331,7 @@
     color: #667558;
     background-color: #E6D3B3;
     margin-left: 200px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -354,215 +367,287 @@
 
 }
 
-.reviews {
 
-    padding-left: 30px;
-    padding-right: 30px;
+body {
+    font-family: "Merriweather", serif;
+}
+
+.swiper {
+    width: 100%;
+    padding: 20px;
+}
+
+.swiper-slide {
     background-color: #505c45;
+    border: 1px solid #E6D3B3;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+}
+
+.reviewClient {
+    height: 140px;
+    font-size: 14px;
+    margin: 10px;
+    color: #E6D3B3;
+
+}
+
+.customerInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
     color: #E6D3B3;
 }
+
+.customerInfo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.customeInfoText {
+    font-size: 14px;
+}
+
 
 .textReview {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     color: #E6D3B3;
     font-weight: 400;
     font-size: 25px;
     letter-spacing: 10px;
 }
 
-.clientInf {
-    height: 330px;
-}
-
-
-.reviewClient {
-
-    height: 100px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.client {
-    border: 1px solid #E6D3B3;
-}
-
-
-.customerInfo {
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 5px;
-
-}
-
-.imgCustomer {
-    width: 90px;
-    height: 90px;
-    margin-left: 40px;
-    border-radius: 50%;
-}
-
-.imgClientClaudia {
-    width: 90px;
-    height: 88px;
-    margin-top: 10px;
-    margin-left: 40px;
-    border-radius: 50%;
-}
-
-.imgClientDebora {
-    width: 93px;
-    height: 90px;
-    margin-left: 40px;
-    border-radius: 50%;
-}
-
-.customeInfoText {
-    display: flex;
-    font-family: var(--thirdFont);
-    font-size: 16px;
-    margin-top: 60px;
-    margin-left: 30px;
-
-}
-
-.stars {
-    margin-left: 30px;
-}
-
-.star {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
 .contactUs {
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 150px;
     background-color: #505c45;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
 }
 
-.contactInfo {
+.contactInfoBox {
     display: flex;
-    align-items: left;
-    justify-content: left;
     flex-direction: column;
     width: 500px;
     height: 550px;
     background-color: #E6D3B3;
-    margin-bottom: 100px;
-    font-size: 16px;
-    font-family: var(--thirdFont);
+    font-size: 12px;
+    font-family: "Merriweather", serif;
     color: #505c45;
+}
 
-
+.contactInfoPhone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 500px;
+    height: 350px;
+    background-color: #E6D3B3;
+    color: #505c45;
 }
 
 .contactPhone {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    gap: 10px;
-    font-size: 16px;
-    font-family: var(--thirdFont);
-    color: #505c45;
-
-
-
+    align-items: center;
+    font-weight: 400;
+    font-size: 10px;
+    font-family: "Merriweather", serif;
+    gap: 15px;
 }
 
-.contactNumber {
+.contactInfoLocation {
     display: flex;
-    margin-left: 70px;
-    font-size: 16px;
-    font-family: var(--thirdFont);
+    flex-direction: column;
+    margin-left: 30px;
+    width: 500px;
+    height: 350px;
+    background-color: #E6D3B3;
     color: #505c45;
+    margin-bottom: 27px;
+}
 
+.contactNumber a {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 30px;
+    color: #505c45;
+}
 
+.contactPhone i.ph-phone-call {
+    font-size: 30px;
+}
+
+.contactPhone h3,
+.contactNumber a {
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #505c45;
 }
 
 .contactLocation {
-    all: unset;
+    margin-bottom: 4px;
+}
+
+.contactLocation h3 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.contactLocation i {
+    font-size: 30px;
+}
+
+.contactLocation a {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top: 25px;
-    margin-bottom: 5px;
+    align-items: center;
+    text-decoration: none;
+    color: #505c45;
+    gap: 8px;
+}
+
+
+.contactLocation a:hover {
+    color: #505c45;
+}
+
+.contactAddress h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 6px;
     margin-left: 30px;
-    gap: 10px;
-    font-size: 16px;
-    font-family: var(--thirdFont);
-    color: #505c45;
-
-
+    gap: 5px;
 }
 
-.contactAdress {
+.contactInfoHour {
     display: flex;
-    margin-left: 70px;
-    font-size: 16px;
-    font-family: var(--thirdFont);
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 30px;
+    font-family: "Merriweather", serif;
     color: #505c45;
-
+    margin-bottom: 30px;
 }
+
 
 .contactClock {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    gap: 10px;
+    align-items: center;
+    gap: 15px;
+}
+
+.contactClock i {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.contactClock h3 {
     font-size: 16px;
-    font-family: var(--thirdFont);
-    color: #505c45;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    margin: 0;
 }
 
 .contactHour {
     display: flex;
-    margin-left: 70px;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.contactHour h3 {
     font-size: 16px;
-    font-family: var(--thirdFont);
+    margin: 0;
+    font-weight: normal;
+    font-family: "Merriweather", serif;
+    margin-left: 30px;
+}
+
+.contactInfoEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 30px;
+    width: 500px;
+    background-color: #E6D3B3;
     color: #505c45;
 }
 
 .contactEmail {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    gap: 10px;
-    font-family: var(--thirdFont);
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.contactEmail i {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.contactEmailAdress a {
+    text-decoration: none;
     color: #505c45;
     font-size: 16px;
+    margin-left: 30px;
 }
 
 .contactEmailAdress {
-    display: flex;
-    margin-left: 70px;
-    font-family: var(--thirdFont);
-    color: #505c45;
-    font-size: 16px;
+    margin-top: 4px;
+}
 
+.contactEmail h3 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 10px;
 
 }
+
+.buttonsSocials {
+    all: unset;
+    text-decoration: none;
+    color: #505c45;
+}
+
+.buttonsSocials i {
+    font-size: 30px;
+}
+
+.buttonsSocials:hover {
+    transform: scale(1.2);
+    color: #505c45;
+}
+
 
 .textSocials {
     display: flex;
     margin-top: 40px;
-    margin-left: 30px;
-    font-family: var(--thirdFont);
+    margin-left: 60px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
     color: #505c45;
     font-size: 16px;
 }
@@ -570,10 +655,13 @@
 .socials {
     display: flex;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 90px;
+    margin-bottom: 10px;
     gap: 10px;
     cursor: pointer;
+    size: 16px;
 }
+
 
 .boxInfo {
     display: flex;
@@ -584,12 +672,12 @@
     gap: 20px;
     flex-direction: column;
     background-color: #E6D3B3;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     border-left: 1px solid #505c45;
 }
 
 .titleWeCallYou {
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.4;
@@ -603,7 +691,7 @@
     height: 40px;
     background-color: white;
     border: none;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -617,7 +705,7 @@
     height: 40px;
     background-color: white;
     border: none;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -632,7 +720,7 @@
     height: 40px;
     background-color: white;
     border: none;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -647,7 +735,7 @@
     height: 200px;
     background-color: white;
     border: none;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -666,16 +754,11 @@
     height: 44px;
     background-color: #505c45;
     border-radius: 50px;
-    font-family: var(--thirdFont);
+    font-family: "Merriweather", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
     font-style: normal;
     letter-spacing: 0.5px;
     color: #E6D3B3;
-
-}
-
-.buttonsSocials {
-    all: unset;
 }

@@ -6,13 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspire SPA Brazil</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="swiper-bundle.css" />
+    <!-- <link rel="stylesheet" href="swiper-bundle.css" /> -->
+
+
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/light/style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
 
-<body>
+<body class="body">
 
-    <div id="inicio" class="backgroundHome">
+    <div id=" inicio" class="backgroundHome">
 
         <div class="principalMenu">
             <a class="logo" href="#inicio">
@@ -42,9 +64,16 @@
         </button>
 
         <a class="inspireCouture" href="https://www.instagram.com/inspire.couturespa/">
+  <div class="inspireCoutureContainer">
+    <h3 class="textInspireCouture">CONHEÇA TAMBÉM</h3>
+    <img class="logoInspireCouture" src="assets/LOGO-INSPIRECOUTURE.png" alt="Logo Inspire Couture" />
+  </div>
+</a>
+
+        <!-- <a class="inspireCouture" href="https://www.instagram.com/inspire.couturespa/">
             <h3 class="textInspireCouture">CONHEÇA TAMBÉM</h3>
             <img class="logoInspireCouture" src="assets/LOGO-INSPIRECOUTURE.png" alt="Logo Inspire Couture" />
-        </a>
+        </a> -->
     </div>
 
     <div id="sobreNos" class="aboutUs">
@@ -84,143 +113,287 @@
         </div>
     </div>
 
-    <h2 id="servicos" class="servicesText">SERVIÇOS QUE INSPIRAM CUIDADO , BEM-ESTAR E EQUILÍBRIO</h2>
+    <h2 id="servicos" class="servicesText">SERVIÇOS QUE INSPIRAM CUIDADO, BEM-ESTAR E EQUILÍBRIO</h2>
     <div class="ourServices">
 
         <div class="massageService">
             <img class="pindasMassagePhoto" src="assets/massageWithPindas.jpg" alt="Massagem com Pindas" />
             <h2 class="titleServices">MASSAGENS</h2>
             <h4 class="subtitleServices">Entre aromas e toques, nasce uma nova versão de você.</h4>
-            <a class="buttonServices" href="/massagens">Saiba mais</a>
+            <a class="buttonServices" href="massages.html">Saiba mais</a>
         </div>
 
         <div class="facialCareService">
             <img class="skinCleaningPhoto" src="assets/tratamentocorporal.jpg" alt="Tratamentos Faciais" />
             <h2 class="titleServices">TRATAMENTOS FACIAIS</h2>
             <h4 class="subtitleServices">Sua cerimônia de rejuvenescimento começa aqui.</h4>
-            <a class="buttonServices" href="/tratamentosFaciais">Saiba mais</a>
+            <a class="buttonServices" href="facialCare.html">Saiba mais</a>
         </div>
 
         <div class="bodyCareService">
             <img class="skinCleaningPhoto" src="assets/bodyCare.jpg" alt="Tratamentos Corporais" />
             <h2 class="titleServices">TRATAMENTOS CORPORAIS</h2>
             <h4 class="subtitleServices">Sua rotina sagrada de autocuidado começa aqui.</h4>
-            <a class="buttonServices" href="/tratamentosCorporais">Saiba mais</a>
+            <a class="buttonServices" href="bodyCare.html">Saiba mais</a>
         </div>
-
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <div id="testimonials" class="reviews">
 
         <h2 class="textReview">INSPIRE-SE COM AS HISTÓRIAS DE QUEM JÁ VIVEU ESSA EXPERIÊNCIA</h2>
 
-        <div class="swiper-container">
+        <div class="swiper">
             <div class="swiper-wrapper">
-
-                <div class="swiper-slide client">
-                    <div class="clientInf">
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-                        <h4 class="reviewClient">
-                            "Com certeza amor que ela sente pelo que faz se reflete em cada detalhe
-                            do atendimento e no resultado final. Ela é muito atenciosa e cuidadosa.
-                            Minha pele é outra desde que comecei os tratamentos com ela e me sinto
-                            renovada a cada massagem. Recomendo muito!!!"
-                        </h4>
-                        <div class="customerInfo">
-                            <img class="imgClientClaudia" src="assets/clientClaudia.jpeg"
-                                alt="Foto da cliente Cláudia" />
-                            <h2 class="customeInfoText">Cláudia de Carvalho</h2>
-                        </div>
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        "Com certeza amor que ela sente pelo que faz se reflete em cada detalhe
+                        do atendimento e no resultado final. Ela é muito atenciosa e cuidadosa.
+                        Minha pele é outra desde que comecei os tratamentos com ela e me sinto
+                        renovada a cada massagem. Recomendo muito!!!"
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientClaudia.jpeg" alt="Cláudia">
+                        <div class="customeInfoText">Cláudia de Carvalho</div>
                     </div>
                 </div>
 
-                <div class="swiper-slide client">
-                    <div class="clientInf">
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-                        <h4 class="reviewClient">
-                            "Foi sem dúvidas a melhor profissinal em que eu já estive.
-                            Atenciosa, dedicada e acolhedora em cada detalhe.
-                            Faço com ela meus tratamentos faciais e massagens, e o cuidado
-                            é sempre excepcional. Não troco a Deusa por ninguém."
-                        </h4>
-                        <div class="customerInfo">
-                            <img class="imgClientDebora" src="assets/clientDebora.png.jpg"
-                                alt="Foto da cliente Débora" />
-                            <h2 class="customeInfoText">Débora Nóbrega</h2>
-                        </div>
+
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        "Foi sem dúvidas a melhor profissinal em que eu já estive.
+                        Atenciosa, dedicada e acolhedora em cada detalhe.
+                        Faço com ela meus tratamentos faciais e massagens, e o cuidado
+                        é sempre excepcional. Não troco a Deusa por ninguém."
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientDebora.png.jpg" alt="Débora">
+                        <div class="customeInfoText">Débora Nóbrega</div>
                     </div>
                 </div>
 
-                <div class="swiper-slide client">
-                    <div class="clientInf">
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-                        <h4 class="reviewClient">
-                            "A massagem foi feita com muita técnica e atenção. Saí relaxado,
-                            como há muito tempo não me sentia. E o efeito durou dias, meu corpo ficou leve
-                            e a mente tranquila. "
-                        </h4>
-                        <div class="customerInfo">
-                            <img class="imgCustomer" src="assets/clientNicolae.png" alt="Foto da cliente Nicolae" />
-                            <h2 class="customeInfoText">Nicolae Patca</h2>
-                        </div>
+
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        "A massagem foi feita com muita técnica e atenção. Saí relaxado,
+                        como há muito tempo não me sentia. E o efeito durou dias, meu corpo ficou leve
+                        e a mente tranquila."
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientNicolae.png" alt="Nicolae">
+                        <div class="customeInfoText">Nicolae Patca</div>
                     </div>
                 </div>
 
-                <div class="swiper-slide client">
-                    <div class="clientInf">
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-                        <h4 class="reviewClient">
-                            "Simplesmente maravilhosa! Me senti especial do começo ao fim. Dá pra sentir
-                            que ela realmente pensa no cliente e não só no dinheiro tudo é feito com muito
-                            amor e com o coração. Sem dúvidas, é a melhor que já conheci."
-                        </h4>
-                        <div class="customerInfo">
-                            <img class="imgCustomer" src="assets/clientSilvana.jpeg" alt="Foto da cliente Silvana" />
-                            <h2 class="customeInfoText">Silvana Pereira</h2>
-                        </div>
+
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        "Simplesmente maravilhosa! Me senti especial do começo ao fim. Dá pra sentir
+                        que ela realmente pensa no cliente e não só no dinheiro tudo é feito com muito
+                        amor e com o coração. Sem dúvidas, é a melhor que já conheci."
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientSilvana.jpeg" alt="Silvana">
+                        <div class="customeInfoText">Silvana Pereira</div>
                     </div>
                 </div>
 
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        "Simplesmente maravilhosa! Me senti especial do começo ao fim. Dá pra sentir
+                        que ela realmente pensa no cliente e não só no dinheiro tudo é feito com muito
+                        amor e com o coração. Sem dúvidas, é a melhor que já conheci."
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientSilvana.jpeg" alt="Silvana">
+                        <div class="customeInfoText">Silvana Pereira</div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        "Simplesmente maravilhosa! Me senti especial do começo ao fim. Dá pra sentir
+                        que ela realmente pensa no cliente e não só no dinheiro tudo é feito com muito
+                        amor e com o coração. Sem dúvidas, é a melhor que já conheci."
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientSilvana.jpeg" alt="Silvana">
+                        <div class="customeInfoText">Silvana Pereira</div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        "Simplesmente maravilhosa! Me senti especial do começo ao fim. Dá pra sentir
+                        que ela realmente pensa no cliente e não só no dinheiro tudo é feito com muito
+                        amor e com o coração. Sem dúvidas, é a melhor que já conheci."
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientSilvana.jpeg" alt="Silvana">
+                        <div class="customeInfoText">Silvana Pereira</div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="reviewClient">
+                        ""
+                    </div>
+                    <div class="customerInfo">
+                        <img src="assets/clientDebora.png.jpg" alt="Cliente Exemplo">
+                        <div class="customeInfoText">Cliente</div>
+                    </div>
+                </div> -->
             </div>
         </div>
 
-    </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <div class="contactUs" id="appointments">
 
-        <div class="contactInfo">
+        <script>
+            new Swiper('.swiper', {
+                slidesPerView: 5,
+                spaceBetween: 10,
+                loop: true,
+                autoplay: {
+                    delay: 500,
+                    disableOnInteraction: false,
+                },
+            });
+        </script>
 
-            <div class="contactPhone">
-                <ion-icon name="call-outline" style="font-size:30px; color:#505c45;"></ion-icon>
-                <h3>Ligue agora</h3>
+
+        <div class="contactUs" id="appointments">
+            <div class="contactInfoBox">
+
+                <div class="contactInfoPhone">
+                    <div class="contactPhone">
+                        <i class="ph ph-phone-call"></i>
+                        <h3>Ligue agora</h3>
+
+                    </div>
+                    <div class="contactNumber">
+                        <a href="tel:+5548984275880">(48) 9 8427-5880</a>
+                    </div>
+                </div>
+
+                <div class="contactInfoLocation">
+                    <div class="contactLocation">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+Marcolino+Martins+Cabral,+2185+-+Tubarão+-+SC"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="ph ph-map-pin"></i>
+                            <h3>Localização</h3>
+                        </a>
+                    </div>
+                    <div class="contactAddress">
+                        <h3>Av. Marcolino Martins Cabral, 2185</h3>
+                        <h3>Tubarão - SC</h3>
+                    </div>
+                </div>
+
+                <div class="contactInfoHour">
+                    <div class="contactClock">
+                        <i class="ph ph-clock"></i>
+                        <h3>Horário de Funcionamento</h3>
+                    </div>
+                    <div class="contactHour">
+                        <h3>Ter - Sáb 08:00 - 17:00</h3>
+                        <h3>Seg e Dom - FECHADO</h3>
+                    </div>
+                </div>
+
+                <div class="contactInfoEmail">
+                    <div class="contactEmail">
+                        <i class="ph ph-envelope"></i>
+                        <h3>E-mail</h3>
+                    </div>
+                    <div class="contactEmailAdress">
+                        <a
+                            href="mailto:inspirebamboo@gmail.com?subject=Agendamento%20de%20Serviço&body=Olá,%20gostaria%20de%20agendar%20um%20horário.">
+                            inspirebamboo@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="textSocials">Acompanhe nossas redes</h3>
+                </div>
+
+                <div class="socials">
+                    <a class="buttonsSocials" href="https://www.facebook.com/profile.php?id=61569516275677"
+                        target="_blank">
+                        <i class="ph ph-facebook-logo"></i>
+                    </a>
+                    <a class="buttonsSocials" href="https://www.instagram.com/inspirespa_?igsh=MWhhamV6eGo2eTBmZg=="
+                        target="_blank">
+                        <i class="ph ph-instagram-logo"></i>
+                    </a>
+                    <a class="buttonsSocials" href="https://wa.link/phle4n" target="_blank">
+                        <i class="ph ph-whatsapp-logo"></i>
+                    </a>
+                </div>
             </div>
-            <div class="contactNumber">
-                <h3>(48) 9 8427-5880</h3>
-            </div>
 
-            <button class="contactLocation">
-                <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+Marcolino+Martins+Cabral,+2185+-+Tubarão+-+SC"
-                    target="_blank" rel="noopener noreferrer">
-                    <ion-icon name="location-outline" style="font-size:30px; color:#505c45;"></ion-icon>
-                </a>
-                <h3>Av. Marcolino Martins Cabral, 2185</h3>
-            </button>
+  <div class="boxInfo">
+    <h2 class="titleWeCallYou">LIGAMOS PARA VOCÊ!</h2>
 
+    <input class="boxInfoName" type="text" name="name" placeholder="Digite seu Nome *" />
+    <input class="boxInfoTelephone" type="text" name="telefone" placeholder="Digite seu Telefone *" />
+    <input class="boxInfoEmail" type="email" name="email" placeholder="Digite seu E-mail " />
+    <textarea class="boxInfoMessage" name="message" placeholder="Conte-nos brevemente sua necessidade. *"></textarea>
+
+    <button class="buttonBoxInfo">Enviar</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init("CYWYvbaJ0_7IeaVEK");
+
+    const formElements = {
+      name: document.querySelector(".boxInfoName"),
+      telefone: document.querySelector(".boxInfoTelephone"),
+      email: document.querySelector(".boxInfoEmail"),
+      message: document.querySelector(".boxInfoMessage")
+    };
+
+    const button = document.querySelector(".buttonBoxInfo");
+
+    button.addEventListener("click", async () => {
+      const form = {
+        name: formElements.name.value.trim(),
+        telefone: formElements.telefone.value.trim(),
+        email: formElements.email.value.trim(),
+        message: formElements.message.value.trim()
+      };
+
+      if (!form.name || !form.telefone || !form.message) {
+        alert("Por favor, preencha os campos obrigatórios.");
+        return;
+      }
+
+      try {
+        await emailjs.send("service_myx56qs", "template_8ex3moj", form);
+        alert("Mensagem enviada com sucesso!");
+
+        Object.values(formElements).forEach(input => input.value = "");
+      } catch (error) {
+        console.error("Erro ao enviar e-mail:", error);
+        alert("Ocorreu um erro. Tente novamente.");
+      }
+    });
+  </script>
         </div>
 
-
-
-
-
-        <script src="script.js"></script>
 </body>
 
 </html>

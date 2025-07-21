@@ -1,0 +1,157 @@
+.backgroundBodyCare {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+    background-color: #505c45;
+}
+
+.logoInspiree {
+    width: 220px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.linkRetorno {
+    all: unset;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #000;
+    color: #E6D3B3;
+}
+
+.firstLine {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.secondLine {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 215px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+
+.thirdLine {
+    display: flex;
+    margin-left: 235px;
+}
+
+
+.fourthLine {
+    display: flex;
+    justify-content: left;
+    margin-left: 230px;
+    gap: 325px;
+}
+
+.service {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titleBodyCare {
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #E6D3B3;
+}
+
+.line {
+    margin-bottom: 30px;
+    color: #E6D3B3;
+}
+
+.subtitleBodyCare {
+    max-width: 500px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #E6D3B3;
+}
+
+.benefits {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #E6D3B3;
+}
+
+.buttonBodyCare {
+    all: unset;
+    cursor: pointer;
+    width: 180px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+    color: #505c45;
+    background-color: #000;
+    background-color: #E6D3B3;
+    border-radius: 50px;
+
+}
+
+.buttonBodyCare:hover {
+    background-color: white;
+    color: #505c45;
+}
+
+.bttBodyCare {
+    all: unset;
+}
+
+.buttonMassage:hover {
+    background-color: #E6D3B3;
+    color: #505c45;
+}
+
+.buttonMassage:hover {
+    background-color: white;
+    color: #505c45;
+}
+
+@media (max-width: 768px) {
+    .service {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .subtitleMassage,
+    .titleMassage {
+        max-width: 100%;
+        width: auto;
+        font-size: 18px;
+    }
+
+    .logoInspiree {
+        width: 150px;
+        height: auto;
+    }
+
+    .firstLine,
+    .secondLine {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thirdLine {
+        display: flex;
+        justify-content: left;
+    }
+}
