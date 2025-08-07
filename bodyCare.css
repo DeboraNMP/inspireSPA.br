@@ -56,7 +56,8 @@
      gap: 150px;
  }
 
- .service {
+ .service,
+ .servicePart2 {
      width: 550px;
      height: auto;
      padding-bottom: 40px;
@@ -141,9 +142,11 @@
          font-weight: 200;
          font-style: normal;
          color: #E6D3B3;
+
      }
 
      .principalMenu {
+         gap: 100px;
          margin-top: 30px;
      }
 
@@ -170,7 +173,8 @@
 
      }
 
-     .service {
+     .service,
+     .servicePart2 {
          width: 550px;
          height: auto;
          padding-bottom: 40px;
@@ -247,10 +251,16 @@
          gap: 0px;
      }
 
-     .service {
+     .service,
+     .servicePart2 {
          width: 600px;
          padding: 0;
          box-sizing: border-box;
+     }
+
+     .principalMenu {
+         gap: 100px;
+         margin-top: 30px;
      }
 
      .principalMenu a {
@@ -304,10 +314,16 @@
          gap: 0px;
      }
 
-     .service {
+     .service,
+     .servicePart2 {
          width: 600px;
          padding: 0;
          box-sizing: border-box;
+     }
+
+     .principalMenu {
+         gap: 100px;
+         margin-top: 30px;
      }
 
      .principalMenu a {
@@ -321,9 +337,10 @@
          padding-right: 100px;
      }
 
+
      .titleBodyCare {
          font-family: "Merriweather", serif;
-         font-size: 28px;
+         font-size: 23px;
          font-weight: 300;
          line-height: 1.5;
          color: #E6D3B3;
@@ -360,6 +377,14 @@
      }
 
      .service {
+         width: 100%;
+         max-width: 90%;
+         padding: 0 20px;
+         margin-bottom: 40px;
+         box-sizing: border-box;
+     }
+
+     .servicePart2 {
          width: 100%;
          max-width: 90%;
          padding: 0 20px;
@@ -450,54 +475,3 @@
      }
 
  }
-
-
- /* Telas Maiores */
- /* @media (min-width: 768px) {
-
-     .firstLine,
-     .secondLine,
-     .thirdLine,
-     .fourthLine,
-     .fifthLine,
-     .sixthLine {
-         flex-direction: column;
-         gap: 40px;
-         align-items: center;
-         padding-left: 40px;
-     }
-
- }
-
- @media (min-width: 600px) and (max-width: 900px) {
-
-     .firstLine,
-     .secondLine,
-     .thirdLine,
-     .fourthLine,
-     .fifthLine,
-     .sixthLine {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         gap: 0px;
-     }
-
-     .service {
-         width: 550px;
-         height: auto;
-         margin-bottom: 70px;
-     }
-
-     .principalMenu a {
-         all: unset;
-         cursor: pointer;
-         margin-top: 40px;
-         font-family: "Merriweather", serif;
-         font-weight: 200;
-         font-style: normal;
-         color: #E6D3B3;
-         padding-right: 100px;
-     }
-
- } */
